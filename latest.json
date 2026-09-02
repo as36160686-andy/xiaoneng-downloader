@@ -1,8 +1,8 @@
 {
-  "version": "v1.0.0",
-  "notes": "小能下载器 v1.0.0 首发：原生桌面多线程下载（HTTP/磁力/种子）+ GitHub 自动更新（国内镜像自动识别）",
-  "exe_url": "https://github.com/as36160686-andy/xiaoneng-downloader/releases/download/v1.0.0/xiaoneng-downloader.exe",
-  "size": 20390504,
-  "sha256": "f7732f0575570c32e66abea5a44537f604d65649f9776f2be4f312e2c9f1e1a5",
+  "version": "v1.0.1",
+  "notes": "修复磁力/种子下载进度不动（缺 import json + 状态文件键名 total_size→total 不匹配）；新增种子解析与选文件下载；版本 v1.0.1",
+  "exe_url": "https://github.com/as36160686-andy/xiaoneng-downloader/releases/download/v1.0.1/xiaoneng-downloader.exe",
+  "size": 20399683,
+  "sha256": "17614b94fa3d3c496edbaa0685f112e859989d151c4404561659a0569bb4bbb9",
   "mirrors": []
 }
