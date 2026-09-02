@@ -1,8 +1,8 @@
 {
-  "version": "v1.1.0",
-  "notes": "v1.1.0：1)修复打开目录按钮无反应(未选中时直接打开下载目录)；2)删除任务新增三选项(删除下载记录/删除文件进回收站/彻底删除)，软删进已删除分类可恢复；3)左侧分类栏(下载中/已完成/已删除)；4)历史栏支持勾选删除与清空记录；5)检查更新列出全部历史版本(含变更履历)可升级也可降级；6)新增Chrome/夸克浏览器插件自动探测视频/音频/磁力/直链并发送到本机(127.0.0.1:9876)。",
-  "exe_url": "https://github.com/as36160686-andy/xiaoneng-downloader/releases/download/v1.1.0/xiaoneng-downloader.exe",
-  "size": 20506830,
-  "sha256": "c4549735fdb67c23f0317b3c08fd926303d1baa0649f8bbc9bff12b3e26f1ef2",
+  "version": "v1.1.1",
+  "notes": "v1.1.1：修复已完成任务仍残留在「下载中」列表（需求③精细化）——已完成任务仅显示在「已完成」分类；其余 6 项功能（打开目录、删除三选项、左侧分类栏、历史选择删除/清空、多版本升级降级、浏览器插件）保持 v1.1.0 状态。",
+  "exe_url": "https://github.com/as36160686-andy/xiaoneng-downloader/releases/download/v1.1.1/xiaoneng-downloader.exe",
+  "size": 20504749,
+  "sha256": "392c6d4108f0d8fd26f70780e37d0491c48489aa1538af1e806408da3ee9becd",
   "mirrors": []
 }
