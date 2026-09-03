@@ -1,11 +1,11 @@
 {
-  "version": "v1.1.7",
-  "notes": "v1.1.7：彻底删除真正抹盘(修复BT路径错位+句柄未释放致文件残留)；正常删除进回收站；新增任务弹窗询问是否立即下载；删除统一三选项(彻底删除/回收站/仅删记录)",
-  "exe_url": "https://github.com/as36160686-andy/xiaoneng-downloader/releases/download/v1.1.7/xiaoneng-downloader.exe",
-  "size": 20516421,
-  "sha256": "0a2c3a8fb52264f0bdee9952c05f8d858ce2de839cfc9c1df6fa60999964dca8",
+  "version": "v1.1.8",
+  "notes": "v1.1.8：1)下载速度修复——移除每64KB强制flush(原8线程并发刷盘/GIL争用腰斩吞吐)，改每1MB周期刷盘+CHUNK 64KB→256KB，真实硬盘多线程吞吐显著提升；2)新增「写入落盘模式」选项(均衡/极致性能/断电保护)并附硬盘寿命说明：f.flush()无fsync不改变写入磁盘总字节数(TBW)，对SSD/HDD寿命无影响",
+  "exe_url": "https://github.com/as36160686-andy/xiaoneng-downloader/releases/download/v1.1.8/xiaoneng-downloader.exe",
+  "size": 20518930,
+  "sha256": "501ab3daae93c855859d643297342ecc5efc4edd6ce0479daa33163d39440d73",
   "mirrors": [],
-  "bt_worker_url": "https://github.com/as36160686-andy/xiaoneng-downloader/releases/download/v1.1.7/bt_worker.exe",
+  "bt_worker_url": "https://github.com/as36160686-andy/xiaoneng-downloader/releases/download/v1.1.8/bt_worker.exe",
   "bt_worker_size": 14456440,
   "bt_worker_sha256": "bb060a2d38f597bda484a59ec26b921db383b761a05429eb1a2a656c33353c97"
 }
