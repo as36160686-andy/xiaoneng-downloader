@@ -1,8 +1,11 @@
 {
-  "version": "v1.1.1",
-  "notes": "v1.1.1：修复已完成任务仍残留在「下载中」列表（需求③精细化）——已完成任务仅显示在「已完成」分类；其余 6 项功能（打开目录、删除三选项、左侧分类栏、历史选择删除/清空、多版本升级降级、浏览器插件）保持 v1.1.0 状态。",
-  "exe_url": "https://github.com/as36160686-andy/xiaoneng-downloader/releases/download/v1.1.1/xiaoneng-downloader.exe",
-  "size": 20504749,
-  "sha256": "392c6d4108f0d8fd26f70780e37d0491c48489aa1538af1e806408da3ee9becd",
-  "mirrors": []
+  "version": "v1.1.7",
+  "notes": "v1.1.7：彻底删除真正抹盘(修复BT路径错位+句柄未释放致文件残留)；正常删除进回收站；新增任务弹窗询问是否立即下载；删除统一三选项(彻底删除/回收站/仅删记录)",
+  "exe_url": "https://github.com/as36160686-andy/xiaoneng-downloader/releases/download/v1.1.7/xiaoneng-downloader.exe",
+  "size": 20516421,
+  "sha256": "0a2c3a8fb52264f0bdee9952c05f8d858ce2de839cfc9c1df6fa60999964dca8",
+  "mirrors": [],
+  "bt_worker_url": "https://github.com/as36160686-andy/xiaoneng-downloader/releases/download/v1.1.7/bt_worker.exe",
+  "bt_worker_size": 14456440,
+  "bt_worker_sha256": "bb060a2d38f597bda484a59ec26b921db383b761a05429eb1a2a656c33353c97"
 }
